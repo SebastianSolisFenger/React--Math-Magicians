@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # Math Magicians
 
 Math Magicians is a react web app that has a feature of simple calculator and also generates a random math related quotes. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
