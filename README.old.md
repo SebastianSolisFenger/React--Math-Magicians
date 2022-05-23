@@ -1,20 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-# Math Magicians
+# Getting Started with Create React App
 
-Math Magicians is a react web app that has a feature of simple calculator and also generates a random math related quotes. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Built With
-
-- Major languages: Javascript
-- Frameworks: ReactJS
-- Technologies used: Webpack, Babel.
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -80,23 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Author
-
-👤 **Sebastian Solis**
-
-- GitHub: [@sebastianDanielSolisFenger](https://github.com/SebastianSolisFenger)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## 📝 License
-
-All source code files are licensed under the permissive **[MIT](./LICENSE.md)** License unless marked differently in a particular folder/file.
