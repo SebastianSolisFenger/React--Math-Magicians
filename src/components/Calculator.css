@@ -5,7 +5,6 @@
 .calculator-Container {
   display: grid;
   grid-template-columns: repeat(4, 90px);
-  box-shadow: 8px 9px #88d;
 }
 
 .box {
