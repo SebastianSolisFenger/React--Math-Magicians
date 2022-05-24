@@ -3,8 +3,10 @@
   padding: 0;
 }
 
-.main-container {
+.grand-main-container {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  background-color: #f8d5a2;
+  height: 100vh;
+  align-items: center;
 }

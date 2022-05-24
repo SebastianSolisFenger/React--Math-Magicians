@@ -9,63 +9,63 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div className="calculator">
-        <span className="output c-item">0</span>
-        <button type="button" className="c-item">
+      <div className="calculator-Container">
+        <span className="defaultOutput box">0</span>
+        <button type="button" className="box bt">
           AC
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           +/-
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           %
         </button>
-        <button type="button" className="c-item bg-orange">
+        <button type="button" className="box bg-orange bt">
           +
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           7
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           8
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           9
         </button>
-        <button type="button" className="c-item bg-orange">
-          x
+        <button type="button" className="box bg-orange bt">
+          X
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           4
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           5
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           6
         </button>
-        <button type="button" className="c-item bg-orange">
+        <button type="button" className="box bg-orange bt">
           -
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           1
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           2
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           3
         </button>
-        <button type="button" className="c-item bg-orange">
+        <button type="button" className="box bg-orange bt">
           +
         </button>
-        <button type="button" className="c-item zero">
+        <button type="button" className="box zero bt">
           0
         </button>
-        <button type="button" className="c-item">
+        <button type="button" className="box bt">
           .
         </button>
-        <button type="button" className="c-item bg-orange">
+        <button type="button" className="box bg-orange bt">
           =
         </button>
       </div>
