@@ -1,11 +1,116 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
-.grand-main-container {
-  display: flex;
+body {
+  margin: 0;
+  background: linear-gradient(rgb(226, 154, 21), rgb(209, 33, 33)) fixed;
+}
+
+.calculator-grid {
+  display: grid;
+  margin-top: 2rem;
   justify-content: center;
-  height: 100vh;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+}
+
+.calculator-grid > button.orange {
+  background-color: rgb(226, 154, 21);
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1/-1;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .currOperand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.output .prevOperand {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar.logo {
+  width: 30%;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 70%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  display: flex;
+  padding-left: 10%;
+}
+
+.nav-bar .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.nav-bar .nav-link:hover {
+  color: rgb(226, 154, 21);
+}
+
+.container {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.container h1,
+h2 {
+  height: 100%;
+}
+
+.authorName {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
 }
