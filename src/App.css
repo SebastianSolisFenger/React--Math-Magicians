@@ -5,11 +5,12 @@
 body {
   margin: 0;
   color: whitesmoke;
-  background: linear-gradient(
-    87deg,
-    rgba(0, 0, 0, 0.840696019618785) 0%,
-    rgba(56, 50, 152, 1) 100%
-  );
+  background:
+    linear-gradient(
+      87deg,
+      rgba(0, 0, 0, 0.840696019618785) 0%,
+      rgba(56, 50, 152, 1) 100%
+    );
 }
 
 .container {
@@ -22,8 +23,9 @@ body {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 10%;
+  padding: 1% 10%;
   background-color: rgba(0, 0, 0, 0.75);
+  position: relative;
 }
 
 .nav-bar ul {
@@ -31,6 +33,7 @@ body {
   width: 70%;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
 }
 
 .nav-bar ul li {
@@ -41,4 +44,59 @@ body {
 .nav-bar .nav-link {
   color: wheat;
   text-decoration: none;
+  padding: 14px 18px;
+}
+
+.Quote-P {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.authorname {
+  font-size: 1rem;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.nav-bar ul li a {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-bar ul li a,
+.nav-bar ul li a::after,
+.nav-bar ul li a::before {
+  transition: all 0.5s;
+}
+
+.nav-bar ul li a:hover {
+  color: #91640f;
+}
+
+.nav-bar ul li a::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '';
+  color: transparent;
+  background: #f1c40f;
+  opacity: 0;
+  z-index: -1;
+  box-shadow: 13px 14px 0 -3px #7d8553;
+}
+
+.nav-bar ul li a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
 }
