@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Display of the webpage Display Calculator page 1`] = `
+<div
+  className="calculator-Container "
+>
+  <h1
+    className="letsDo"
+  >
+    Let's Do Some Math
+  </h1>
+  <div
+    className="app"
+  >
+    <h2
+      className="defaultOutput box"
+    >
+      <span>
+        0
+      </span>
+      <span />
+      <span />
+    </h2>
+    <button
+      className="box btn"
+      id="AC"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="box btn"
+      id="+/-"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="box btn"
+      id="%"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="box bg-orange btn"
+      id="÷"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="box btn"
+      id="7"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="box btn"
+      id="8"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="box btn"
+      id="9"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="box bg-orange bt"
+      id="x"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="box btn"
+      id="4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="box btn"
+      id="5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="box btn"
+      id="6"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="box bg-orange btn"
+      id="-"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="box btn"
+      id="1"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="box btn"
+      id="2"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="box btn"
+      id="3"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="box bg-orange btn"
+      id="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="box zero btn"
+      id="0"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="box btn"
+      id="."
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="box bg-orange btn"
+      id="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`The Display of the webpage Display Home page 1`] = `
+<div
+  className="container"
+>
+  <h1>
+     Welcome to Math Magicians!
+  </h1>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam vitae, dolore minus amet laborum repellendus quia, at omnis aperiam cupiditate sunt. Maxime voluptatem aliquid tempore nam natus eaque pariatur expedita! Laboriosam tempora, illum quae dolorem amet tenetur cum ratione architecto, nihil iste voluptas facere error! Ex architecto quasi omnis harum laudantium eligendi ipsam perspiciatis dolor quae, ipsum a dicta corrupti!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam vitae, dolore minus amet laborum repellendus quia, at omnis aperiam cupiditate sunt. Maxime voluptatem aliquid tempore nam natus eaque pariatur expedita! Laboriosam tempora, illum quae dolorem amet tenetur cum ratione architecto.
+  </p>
+</div>
+`;
+
+exports[`The Display of the webpage Display Quote page 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="Quote-P"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.
+  </h2>
+  <span
+    className="authorname"
+  >
+     -- by William Paul Thuston
+  </span>
+</div>
+`;

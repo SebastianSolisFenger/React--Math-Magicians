@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './index.css';
-import App from './App';
+import './General-styling.css';
+import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
 import Navigation from './components/Navigation';
@@ -14,7 +14,7 @@ root.render(
       <Navigation />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/calculator" element={<App />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route exact path="/quote" element={<Quote />} />
       </Routes>
     </BrowserRouter>
