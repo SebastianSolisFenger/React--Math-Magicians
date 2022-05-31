@@ -5,25 +5,25 @@ import { Link } from 'react-router-dom';
 const Navigation = () => (
   <div className="nav-bar">
     <h2 className="logo">
-      <link className="nav-link" to="/calculator">
+      <Link className="nav-link" to="/calculator">
         Math Magicians
-      </link>
+      </Link>
     </h2>
     <ul>
       <li>
-        <link className="nav-link" to="/">
+        <Link className="nav-link" to="/">
           Home
-        </link>
+        </Link>
       </li>
       <li>
-        <link className="nav-link" to="/calculator">
+        <Link className="nav-link" to="/calculator">
           Calculator
-        </link>
+        </Link>
       </li>
       <li>
-        <link className="nav-link" to="/quote">
+        <Link className="nav-link" to="/quote">
           Quote
-        </link>
+        </Link>
       </li>
     </ul>
   </div>

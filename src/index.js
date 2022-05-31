@@ -7,15 +7,8 @@ import Home from './components/Home';
 import Quote from './components/Quote';
 import Navigation from './components/Navigation';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
-// @ts-ignore
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navigation />
@@ -25,6 +18,5 @@ ReactDOM.render(
         <Route exact path="/quote" element={<Quote />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );

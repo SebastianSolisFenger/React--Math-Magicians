@@ -16,30 +16,30 @@ const Calculator = () => {
         <span>{operation}</span>
         <span>{next}</span>
       </h2>
-      <button type="button" onClick={clickBtn} id="AC" className="box bt">
+      <button type="button" onClick={clickBtn} id="AC" className="box btn">
         AC
       </button>
-      <button type="button" onClick={clickBtn} id="+/-" className="box bt">
+      <button type="button" onClick={clickBtn} id="+/-" className="box btn">
         +/-
       </button>
-      <button type="button" onClick={clickBtn} id="%" className="box bt">
+      <button type="button" onClick={clickBtn} id="%" className="box btn">
         %
       </button>
       <button
         type="button"
         onClick={clickBtn}
         id="÷"
-        className="box bg-orange bt"
+        className="box bg-orange btn"
       >
         ÷
       </button>
-      <button type="button" onClick={clickBtn} id="7" className="box bt">
+      <button type="button" onClick={clickBtn} id="7" className="box btn">
         7
       </button>
-      <button type="button" onClick={clickBtn} id="8" className="box bt">
+      <button type="button" onClick={clickBtn} id="8" className="box btn">
         8
       </button>
-      <button type="button" onClick={clickBtn} id="9" className="box bt">
+      <button type="button" onClick={clickBtn} id="9" className="box btn">
         9
       </button>
       <button
@@ -50,51 +50,51 @@ const Calculator = () => {
       >
         x
       </button>
-      <button type="button" onClick={clickBtn} id="4" className="box bt">
+      <button type="button" onClick={clickBtn} id="4" className="box btn">
         4
       </button>
-      <button type="button" onClick={clickBtn} id="5" className="box bt">
+      <button type="button" onClick={clickBtn} id="5" className="box btn">
         5
       </button>
-      <button type="button" onClick={clickBtn} id="6" className="box bt">
+      <button type="button" onClick={clickBtn} id="6" className="box btn">
         6
       </button>
       <button
         type="button"
         onClick={clickBtn}
         id="-"
-        className="box bg-orange bt"
+        className="box bg-orange btn"
       >
         -
       </button>
-      <button type="button" onClick={clickBtn} id="1" className="box bt">
+      <button type="button" onClick={clickBtn} id="1" className="box btn">
         1
       </button>
-      <button type="button" onClick={clickBtn} id="2" className="box bt">
+      <button type="button" onClick={clickBtn} id="2" className="box btn">
         2
       </button>
-      <button type="button" onClick={clickBtn} id="3" className="box bt">
+      <button type="button" onClick={clickBtn} id="3" className="box btn">
         3
       </button>
       <button
         type="button"
         onClick={clickBtn}
         id="+"
-        className="box bg-orange bt"
+        className="box bg-orange btn"
       >
         +
       </button>
-      <button type="button" onClick={clickBtn} id="0" className="box zero bt">
+      <button type="button" onClick={clickBtn} id="0" className="box zero btn">
         0
       </button>
-      <button type="button" onClick={clickBtn} id="." className="box bt">
+      <button type="button" onClick={clickBtn} id="." className="box btn">
         .
       </button>
       <button
         type="button"
         onClick={clickBtn}
         id="="
-        className="box bg-orange bt"
+        className="box bg-orange btn"
       >
         =
       </button>
