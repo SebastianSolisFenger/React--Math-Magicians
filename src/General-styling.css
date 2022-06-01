@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  background:
+    linear-gradient(
+      87deg,
+      rgba(0, 0, 0, 0.840696019618785) 0%,
+      rgba(56, 50, 152, 1) 100%
+    );
+}
+
+.container {
+  width: 80%;
+  margin: 7% auto;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.nav-bar ul li {
+  display: flex;
+  padding-left: 12%;
+}
+
+.nav-bar .nav-link {
+  color: wheat;
+  text-decoration: none;
+  padding: 14px 18px;
+}
+
+.Quote-P {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.authorname {
+  font-size: 1rem;
+}
+
+.nav-bar ul li a {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-bar ul li a,
+.nav-bar ul li a::after,
+.nav-bar ul li a::before {
+  transition: all 0.5s;
+}
+
+.nav-bar ul li a:hover {
+  color: #91640f;
+}
+
+.nav-bar ul li a::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '';
+  color: transparent;
+  background: #f1c40f;
+  opacity: 0;
+  z-index: -1;
+  box-shadow: 13px 14px 0 -3px #7d8553;
+}
+
+.nav-bar ul li a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  border: 4px solid gray;
+}
+
+.calculator-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% auto;
+  width: 80%;
+}
+
+.letsDo {
+  align-self: flex-start;
+}
+
+.app {
+  display: grid;
+  justify-content: flex-end;
+  grid-template-columns: repeat(4, 88px);
+  background: #eee;
+  box-shadow: 32px 40px 21px -3px #050f3e;
+  border-radius: 9px;
+  margin-top: 1%;
+  border: 7px solid rgb(255 167 44);
+}
+
+.box {
+  border: 1.7px solid rgb(175, 172, 172);
+  background-color: #dfdfdf;
+  border-radius: 0;
+  height: 70px;
+}
+
+.defaultOutput {
+  grid-column: 1 / span 4;
+  background-color: #3e3e40;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  padding: 10px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bg-orange {
+  background-color: #ffa72c;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
