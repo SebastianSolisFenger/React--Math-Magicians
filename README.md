@@ -9,9 +9,9 @@ Math Magicians is a react web app that has a feature of simple calculator and al
 - Frameworks: ReactJS
 - Technologies used: Webpack, Babel.
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link--Netlify](https://regal-vacherin-2ff738.netlify.app/)
 
 
 ## Getting Started
